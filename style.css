@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 38px;
+}
+
+h1{
+    line-height: 70px;
+    color: #fff;
+}
+
+.all{
+    width: 100%;
+    color: #fff;
+    height: auto;
+    background: fixed;
+    background-image: radial-gradient(blue, black);
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    position: sticky;
+    top: 0;
+    background-image: url(navbar.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.item{
+    list-style: none;
+    font-size: 18px;
+}
+
+.item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    width: 200px;
+    border: 2px solid red;
+    height: 6vh;
+    font-size: 30px;
+    color: #fff;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background: transparent;
+}
+
+.banner_txt{
+    width: 50%;
+    height: 100%;
+    padding: 150px 100px;
+}
+
+.banner_txt h1{
+    width: 500px;
+    font-size: 60px;
+}
+
+.banner_txt p{
+    margin-top: 30px;
+    width: 500px;
+    color: gray;
+    font-size: 27px;
+}
+
+.banner_img{
+    width: 50%;
+    height: 100%;
+    padding: 30px 10px;
+}
+
+.banner_img img{
+    width: 90%;
+    height: 90%;
+    transition: 1s;
+}
+
+.banner_img img:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.banner2{
+    width: 100%;
+    height: 70vh;
+    background: transparent;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.banner2 h1{
+    font-size: 50px;
+}
+
+.main_p{
+    width: 600px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.card{
+    width: 240px;
+    padding-top: 25px;
+    text-align: center;
+    transition: 2s;
+    border-radius: 10px;
+    box-shadow: 5px 5px 60px #000000bf;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.card p{
+    color: gray;
+    margin: 20px;
+    line-height: 25px;
+}
+
+.banner3{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background: transparent;
+}
+
+.banner3_img{
+    width: 50%;
+    height: 100%;
+    padding: 30px 100px;
+}
+
+.banner3_img img{
+    width: 90%;
+    height: 90%;
+    transition: 1s;
+}
+
+.banner3_img img:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+.banner3_txt{
+    width: 50%;
+    height: 100%;
+    padding: 150px 50px;
+}
+
+.banner3_txt h1{
+    width: 500px;
+    font-size: 60px;
+}
+
+.banner3_txt p{
+    margin-top: 30px;
+    width: 500px;
+    color: gray;
+    font-size: 27px;
+}
+
+.banner4{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background: transparent;
+}
+
+.banner4_txt{
+    width: 50%;
+    height: 100%;
+    padding: 150px 100px;
+}
+
+.banner4_txt h1{
+    width: 500px;
+    font-size: 60px;
+}
+
+.banner4_txt p{
+    margin-top: 30px;
+    width: 500px;
+    color: gray;
+    font-size: 27px;
+}
+
+.banner4_img{
+    width: 50%;
+    height: 100%;
+    padding: 30px 10px;
+}
+
+.banner4_img img{
+    width: 90%;
+    height: 90%;
+    transition: 1s;
+}
+
+.banner4_img img:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.banner5{
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 10px;
+    height: 80vh;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    transition: 2s;
+}
+
+.banner5:hover{
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.banner5 p{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.banner5 input{
+    width: 420px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.banner5_inp{
+    height: 40px;
+}
+
+.banner5 input::placeholder{
+    color: #fff;
+}
+
+.message{
+    height: 100px;
+}
+
+.submit{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+}
+
+.inp{
+    margin: 20px -200px;
+    accent-color: #fff;
+    color: #fff;
+    border: none;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
